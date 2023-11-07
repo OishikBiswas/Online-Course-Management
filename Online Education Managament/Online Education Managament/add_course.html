@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Add Course</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Oishik Biswas</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+
+<section class="form-container">
+    
+<link rel="stylesheet" href="style1.css">
+  <div class="container">
+    <div class="title">Adding New Course</div>
+    <div class="content">
+      <form action="#">
+        <div class="course-details">
+          <div class="input-box">
+            <label for="details">Course Title</label>
+            <input type="text" id="coursetitle" placeholder="Enter course title" required>
+          </div>
+          <div class="input-box">
+            <label for="course teacher">Course Teacher</label>
+            <input type="text" id="courseteacher" placeholder="Enter course teacher name" required>
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter course teacher email" required>
+          </div>
+          <div class="input-box">
+            <label for="phone number">Phone Number</label>
+            <input type="text" id="phonenumber" placeholder="Enter course teacher number" required>
+          </div>
+          
+        </div>
+        <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <label for="gender-title">Course Teacher Gender</label>
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</section>
+
+
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
